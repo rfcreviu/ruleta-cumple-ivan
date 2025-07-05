@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruleta de la Suerte - Cumpleaños Iván</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="game-title">
+            <h1>🎉 Ruleta de la Suerte 🎉</h1>
+            <p>¡Haz clic en GIRAR para probar tu suerte!</p>
+        </div>
+        
+        <div class="roulette-container">
+            <div class="roulette-wheel" id="wheel">
+                <div class="section section1">
+                    <span>🎁 Premio 1</span>
+                </div>
+                <div class="section section2">
+                    <span>🍰 Premio 2</span>
+                </div>
+                <div class="section section3">
+                    <span>🎈 Premio 3</span>
+                </div>
+                <div class="section section4">
+                    <span>🎊 Premio 4</span>
+                </div>
+                <div class="section section5">
+                    <span>🎪 Premio 5</span>
+                </div>
+            </div>
+            <div class="pointer"></div>
+        </div>
+        
+        <div class="controls">
+            <button id="spinBtn" class="spin-button">
+                🎯 GIRAR RULETA
+            </button>
+        </div>
+        
+        <div class="result" id="result">
+            <p>¡Gira la ruleta para ver tu premio!</p>
+        </div>
+        
+        <div class="edit-section">
+            <h3>✏️ Personalizar Premios</h3>
+            <div class="prize-inputs">
+                <input type="text" id="prize1" placeholder="Premio 1" value="🎁 Premio 1">
+                <input type="text" id="prize2" placeholder="Premio 2" value="🍰 Premio 2">
+                <input type="text" id="prize3" placeholder="Premio 3" value="🎈 Premio 3">
+                <input type="text" id="prize4" placeholder="Premio 4" value="🎊 Premio 4">
+                <input type="text" id="prize5" placeholder="Premio 5" value="🎪 Premio 5">
+            </div>
+            <button id="updateBtn" class="update-button">Actualizar Premios</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
